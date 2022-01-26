@@ -84,6 +84,5 @@ works_at = works_at_loc.get_text().strip()
   
 location_loc = intro.find_all("span", {'class': 'text-body-small'})
   
-print(location_loc)  
 print("Name -->", name,
       "\nWorks At -->", works_at,)
